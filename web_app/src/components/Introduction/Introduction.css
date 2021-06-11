@@ -1,0 +1,42 @@
+.tsparticles {
+   width: 100%;
+   height: 100%;
+}
+.common {
+   font-size: 3rem;
+   margin-bottom: 0px;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+.common::first-letter {
+   font-size: 4rem;
+   color: rgb(230, 81, 22);
+   font-weight: 400;
+}
+/* .text1 {
+   font-size: 8rem;
+   color: black;
+   margin-bottom: 0px;
+}
+.text1::first-letter {
+   font-size: 10rem;
+   color: rgb(230, 81, 22);
+}
+.text2 {
+   margin-top: 0px;
+   font-size: 6rem;
+}
+.text2::first-letter {
+   font-size: 8rem;
+   color: rgb(230, 81, 22);
+}
+.text3 {
+   margin-top: 0px;
+   font-size: 6rem;
+}
+.text3::first-letter {
+   font-size: 8rem;
+   color: rgb(230, 81, 22);
+} */
+
+.text3 {
+}
