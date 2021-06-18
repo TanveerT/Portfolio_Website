@@ -1,9 +1,9 @@
 .container{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* border: 1px solid black; */
     flex-direction: column;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     /* padding-top:2rem; */
     text-align: center;
     color:whitesmoke;
@@ -11,8 +11,11 @@
 
 .incontainer1{
     /* flex:30%; */
-    width:45%;
+    width:50%;
+    
+    margin: 5%;
     margin-left: 5%;
+    margin-bottom: 4%;
     /* margin:0 auto; */
     /* height:  20%; */
     /* border: 1px solid red; */
@@ -27,21 +30,28 @@
     margin-left:5%; 
     width: 75%;
     color:rgb(0,87,123);
-    height:80%;
+    /* height:80%; */
     /* border:1px solid blue; */
     font-size:1rem ;
+    height: 70vh;
+}
+.header > h1{
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 3rem; 
 }
 .content-container{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
 }
 
 .content-inner1{
     display: flex;
     flex-wrap: nowrap;
+    font-size:1.5rem;
   
 }
 .studiesnames{
@@ -55,6 +65,8 @@
 
 .content-inner2{
     flex-basis: 75%;
+    text-align: left;
+    margin:5%;
     
 }
 .studiesdesc{

@@ -12,7 +12,7 @@ const companies=[
         <div className="Edu-container">
 
         
-        <Shadowdiv color='yellow' className='Edu-header'>
+        <Shadowdiv color='rgb(10, 147, 146)' className='Edu-header'>
             <h1>Experience</h1>
         </Shadowdiv>
         <Shadowdiv color='whitesmoke' className='Edu-content'>
@@ -20,7 +20,7 @@ const companies=[
                 companies.map((company,index)=>{
 
                         return(
-                            <div className="company-details-container">
+                            <div key={index} className="company-details-container">
                                 <h1>
                                    {} {company.name}{'  '}|{'  '}{company.title}
                                 </h1>
