@@ -10,10 +10,10 @@ const Project = ()=>{
             </Shadowdiv>
             <div className='Pro-list-container'>
                 
-                <Shadowdiv className='Pro-list-child 1'/>
-                <Shadowdiv className='Pro-list-child 1'/>
-                <Shadowdiv className='Pro-list-child 1'/>
-                <Shadowdiv className='Pro-list-child 1'/>
+                {/* <Shadowdiv className='Pro-list-child 1'/>
+                <Shadowdiv className='Pro-list-child 1'/> */}
+                {/* <Shadowdiv className='Pro-list-child 1'/>
+                <Shadowdiv className='Pro-list-child 1'/> */}
             </div> 
 
             
