@@ -9,7 +9,7 @@ const home =()=>{
    
     return (
         <div style={{ scrollSnapType : 'y mandatory',overflowY :'scroll',height:'100vh'}}>
-            <Pagescroll/>
+            {/* <Pagescroll/> */}
 
             <Page color='rgba(234, 219, 219, 0.3)' height='100vh' >
                 <Introduction/>
@@ -23,7 +23,7 @@ const home =()=>{
             <Page color='rgba(10, 147, 146 ,0.3)'  height='100vh'>
                 <Experience/>
             </Page>
-            <Page color='rgba(196, 51, 70,0.1)' height='100vh'>
+            <Page color='rgba(196, 51, 70,0.1)' height='100%'>
                 <Project/>
             </Page>
             <Page color='rgba(12, 86, 120,0.2)' height='25vh'/>

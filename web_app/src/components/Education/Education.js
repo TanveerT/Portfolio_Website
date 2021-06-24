@@ -6,9 +6,9 @@ const Education = () => {
 const [togglewindow,settogglewindow]=useState(0);
 
 const studiesdesc=[
-    {studies:'Graduate',institution:'VR Siddhartha Engineering College',about:'My life leasons begins hear',place:'vijayawada'}
-    ,{studies:'Secondry School',institution:'Sri Chaitainaya College',about:'My Actual learning begins hear',place:'Vijayawada'}
-    ,{studies:'High School',institution:'Nirmala High School',about:'My initial Steps begins hear',place:'Machilipatnam'}
+    {studies:'Graduate',institution:'VR Siddhartha Engineering College',about:'My life leasons begins hear',place:'Andhra Pradesh, Vijayawada',yearstart:'2016',yearend:'2020'}
+    ,{studies:'Secondry School',institution:'Sri Chaitainaya College',about:'My Actual learning begins hear',place:'Andhra Pradesh, Vijayawada',yearstart:'2014',yearend:'2016'}
+    ,{studies:'High School',institution:'Nirmala High School',about:'My initial Steps begins hear',place:'Andhra Pradesh, Machilipatnam',yearstart:'',yearend:'2014'}
     ,
 ];
 
@@ -59,6 +59,7 @@ const toggletab=(props)=>{
                                     // className={`studiesdesc  ${index}`}
                                 >
                                     <h1>{obj.institution}</h1>
+                                    <h3>{obj.yearstart}{' ~ '}{obj.yearend}</h3>
                                     <p>{obj.about}</p>
                                     <p>{obj.place}</p>
                                 </div>
