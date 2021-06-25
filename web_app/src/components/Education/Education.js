@@ -6,9 +6,9 @@ const Education = () => {
 const [togglewindow,settogglewindow]=useState(0);
 
 const studiesdesc=[
-    {studies:'Graduate',institution:'VR Siddhartha Engineering College',about:'My life leasons begins hear',place:'Andhra Pradesh, Vijayawada',yearstart:'2016',yearend:'2020'}
-    ,{studies:'Secondry School',institution:'Sri Chaitainaya College',about:'My Actual learning begins hear',place:'Andhra Pradesh, Vijayawada',yearstart:'2014',yearend:'2016'}
-    ,{studies:'High School',institution:'Nirmala High School',about:'My initial Steps begins hear',place:'Andhra Pradesh, Machilipatnam',yearstart:'',yearend:'2014'}
+    {studies:'Graduate',institution:'VR Siddhartha Engineering College',about:'My life leasons begins hear',place:'Vijayawada, Andhra Pradesh',yearstart:'2016',yearend:'2020'}
+    ,{studies:'Secondry School',institution:'Sri Chaitainaya College',about:'My Actual learning begins hear',place:'Vijayawada, Andhra Pradesh',yearstart:'2014',yearend:'2016'}
+    ,{studies:'High School',institution:'Nirmala High School',about:'My initial Steps begins hear',place:'Machilipatnam, Andhra Pradesh',yearstart:'',yearend:'2014'}
     ,
 ];
 

@@ -1,9 +1,14 @@
+Sdiv{
+
+
+}
 .tsparticles {
    width: 100%;
    height: 100%;
 }
 .common {
    font-size: 3rem;
+   line-height: 5rem;
    margin-bottom: 0px;
    font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -25,5 +30,35 @@
 @keyframes blinker {
    50% {
      opacity: 0;
+   }
+ }
+.Sdiv{
+   width:50%;
+   height:70%;
+position:absolute;
+top:50%;
+left:50%;
+/* border: 1px solid red; */
+   
+transform: translate(-50%,-40%);
+}
+
+ /* mobile view */
+
+ @media screen and (max-width: 600px){
+
+   .common{
+    
+      font-size: 2rem;
+      line-height: 4rem;
+   }
+   .common::first-letter{
+      font-size: 3rem;
+   }
+   .Sdiv{
+      width:80%;
+      top: 25%;
+      transform: translate(-50%,-10%);
+      /* border: 1px solid red; */
    }
  }

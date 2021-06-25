@@ -20,9 +20,9 @@ const Footer = () =>{
                     {/* <div className='feedback-div'>
                         <input type='text' placeholder="Email" name='email'/>
                     </div> */}
-                    <div   className='feedback-button'>
+                    {/* <div   className='feedback-button'> */}
                             <h4>Start</h4>
-                    </div>
+                    {/* </div> */}
                 </div>
 
             </div>

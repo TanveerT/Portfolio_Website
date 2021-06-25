@@ -2,19 +2,13 @@
 import styled from 'styled-components';
 import Typical from 'react-typical';
 import Stringonebyone from '../Stringonebyone/Stringonebyone';
-import { useState ,useEffect} from 'react';
+import { useState } from 'react';
 import './Introduction.css';
 import {FaArrowAltCircleDown} from 'react-icons/fa';
 
 const Sdiv=styled.div`
 
-width:50%;
-height:50%;
-position:absolute;
-top:50%;
-left:50%;
 
-transform: translate(-50%,-50%);
 
 `;
 
@@ -38,7 +32,7 @@ const test =()=>{
 
     return (
 
-        <Sdiv>
+        <Sdiv className='Sdiv'>
             <div className='text1 common'>
                 {0 in count && <Stringonebyone string="Hi" delay='1000 ' method={callback}/> }
             </div>

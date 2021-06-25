@@ -36,3 +36,17 @@
     margin-left: 20px;
     margin-bottom: 30px;
 }
+
+
+@media screen and (max-width: 600px){
+
+
+    .Edu-header{
+        width: auto;
+        margin-top: 20%;
+    }
+    .Edu-content{
+        width: 90%;
+    height: 70vh;
+    }
+}

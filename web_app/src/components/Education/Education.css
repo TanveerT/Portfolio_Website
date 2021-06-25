@@ -43,7 +43,7 @@
 .content-container{
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* justify-content: space-between; */
     
 }
@@ -83,4 +83,22 @@
     background-color: rgba(0, 87, 126,0.8);
     /* border-bottom: 1px solid rgb(44, 56, 61); */
 
+}
+
+@media screen and (max-width: 600px){
+
+.incontainer1{
+    margin-top: 20%;
+    width: auto;
+}
+.incontainer2{
+    width: 90%;
+    height: 50vh;
+}
+.header >h1{
+    font-size:2.5rem; 
+}
+.content-inner{
+    font-size: 1rem;
+}
 }

@@ -47,3 +47,18 @@
 .Pro-list-child h1,h3, p {
     margin-left: 2%;
 }
+
+
+@media screen and (max-width: 600px){
+
+    .Pro-list-container {
+        height: 70vh;
+        margin:0;
+        margin-right: 5%;
+        width: auto;
+    }
+    .Pro-list-child{
+        height: 350px;
+        width: 100%;
+    }
+}
