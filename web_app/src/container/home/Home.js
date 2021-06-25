@@ -4,7 +4,7 @@ import Pagescroll from '../../container/Pagescroll/Pagescroll';
 import Education from '../../components/Education/Education';
 import Experience from '../../components/Experience/Experience';
 import Project from '../../components/Project/Project';
-
+import Footer from '../../components/Footer/Footer';
 const home =()=>{
    
     return (
@@ -26,7 +26,9 @@ const home =()=>{
             <Page color='rgba(196, 51, 70,0.1)' height='100%'>
                 <Project/>
             </Page>
-            <Page color='rgba(12, 86, 120,0.2)' height='25vh'/>
+            <Page color='rgba(12, 86, 120,0.2)' height='50vh'>
+                <Footer/>
+            </Page>
             
             
         </div>
