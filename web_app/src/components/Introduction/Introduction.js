@@ -59,7 +59,7 @@ const test =()=>{
             
             </div>
             
-            {1 in count && <div className='down-arrow'><FaArrowAltCircleDown /></div>}
+            {4 in count && <div className='down-arrow'><FaArrowAltCircleDown /></div>}
         </Sdiv>
 
 
