@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b12e743.chunk.css",
-    "main.js": "/static/js/main.d214c527.chunk.js",
-    "main.js.map": "/static/js/main.d214c527.chunk.js.map",
+    "main.css": "/static/css/main.aeaeb462.chunk.css",
+    "main.js": "/static/js/main.04ceeb8a.chunk.js",
+    "main.js.map": "/static/js/main.04ceeb8a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cecaed90.js",
     "runtime-main.js.map": "/static/js/runtime-main.cecaed90.js.map",
-    "static/js/2.4e073b4c.chunk.js": "/static/js/2.4e073b4c.chunk.js",
-    "static/js/2.4e073b4c.chunk.js.map": "/static/js/2.4e073b4c.chunk.js.map",
+    "static/js/2.bb3d65e3.chunk.js": "/static/js/2.bb3d65e3.chunk.js",
+    "static/js/2.bb3d65e3.chunk.js.map": "/static/js/2.bb3d65e3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5b12e743.chunk.css.map": "/static/css/main.5b12e743.chunk.css.map",
-    "static/js/2.4e073b4c.chunk.js.LICENSE.txt": "/static/js/2.4e073b4c.chunk.js.LICENSE.txt",
+    "static/css/main.aeaeb462.chunk.css.map": "/static/css/main.aeaeb462.chunk.css.map",
+    "static/js/2.bb3d65e3.chunk.js.LICENSE.txt": "/static/js/2.bb3d65e3.chunk.js.LICENSE.txt",
     "static/media/GeoProcessing.0051cc65.png": "/static/media/GeoProcessing.0051cc65.png",
     "static/media/RoadSignDetection.30419e86.jpeg": "/static/media/RoadSignDetection.30419e86.jpeg",
     "static/media/VehiclePollutionMonitering.dff2861d.png": "/static/media/VehiclePollutionMonitering.dff2861d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cecaed90.js",
-    "static/js/2.4e073b4c.chunk.js",
-    "static/css/main.5b12e743.chunk.css",
-    "static/js/main.d214c527.chunk.js"
+    "static/js/2.bb3d65e3.chunk.js",
+    "static/css/main.aeaeb462.chunk.css",
+    "static/js/main.04ceeb8a.chunk.js"
   ]
 }
